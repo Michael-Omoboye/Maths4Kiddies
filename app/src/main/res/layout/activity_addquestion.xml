@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/ic_bg"
+    tools:context=".admin.activity_addquestion">
+
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="@string/add_question"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etQuesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/please_enter_question"
+        android:imeOptions="actionGo"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:imeOptions="actionGo"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:hint="@string/option_1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:imeOptions="actionGo"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:hint="@string/option_2"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:imeOptions="actionGo"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:hint="@string/option_3"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:imeOptions="actionGo"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:hint="@string/option_4"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txt_ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:imeOptions="actionGo"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:hint="@string/answer"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/add"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/back_to_main"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
